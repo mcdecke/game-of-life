@@ -6,36 +6,40 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <h2>Game of Life</h2>
+    <h2>Game of life</h2>
 
-  <form>
-    <div>
-      <button id="dump-config-btn">Dump Config</button>
-      <span> Show current config on console.</span>
-    </div>
+    <table id="ui-grid"></table>
 
-    <div>
-  <button id="clear-btn">Clear</button>
-  <span>Torch It</span>
-    </div>
+    <form>
+      <h3>Controls</h3>
 
-    <div>
-  <button id="one-tick-btn">Clear</button>
-  <span>One generation step</span>
-    </div>
+      <div>
+        <button id="dump-config-btn">Dump config</button>
+        <span>Show current config on console.</span>
+      </div>
 
-    <div>
-  <button id="start-tick-btn">Clear</button>
-  <span>Start Tick</span>
-    </div>
+      <div>
+        <button id="clear-btn">Clear</button>
+        <span>Torch it</span>
+      </div>
 
-    <div>
-  <button id="stop-tick-btn">Clear</button>
-  <span>Start Tick</span>
-    </div>
+      <div>
+        <button id="one-tick-btn">One Tick</button>
+        <span>One generation step</span>
+      </div>
+
+      <div>
+        <button id="start-tick-btn">Start Ticking</button>
+        <span>Start automatically advancing gernations</span>
+      </div>
+
+      <div>
+        <button id="stop-tick-btn">Stop Ticking</button>
+        <span>Stop automatically advancing gernations</span>
+      </div>
+    </form>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="app.js"></script>
-  </form>
 </body>
 </html>
