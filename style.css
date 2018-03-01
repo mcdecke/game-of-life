@@ -6,4 +6,10 @@ body {
    width: 10px;
    height: 10px;
    border: 1px solid plum;
+   background-color: white;
  }
+
+.on{
+  color: white;
+  background-color: tomato
+}
